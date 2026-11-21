@@ -1,0 +1,46 @@
+{
+  "name": "next-a11y-agent",
+  "version": "0.0.0",
+  "description": "Find, explain and fix accessibility issues in Next.js apps with a Claude agent.",
+  "type": "module",
+  "bin": {
+    "next-a11y-agent": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "tsx --test \"tests/**/*.test.ts\"",
+    "check": "npm run lint && npm run format:check && npm run typecheck && npm test && npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "accessibility",
+    "a11y",
+    "axe",
+    "claude",
+    "agent",
+    "cli"
+  ],
+  "author": "Arjun",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.73.0"
+  }
+}

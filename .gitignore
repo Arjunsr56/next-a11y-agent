@@ -1,0 +1,15 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# Generated reports
+a11y-report.md
+
+# OS / editor
+.DS_Store
