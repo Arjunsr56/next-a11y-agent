@@ -14,8 +14,8 @@
 - **Milestone:** M0 (Foundation), not started
 - **Branch:** main
 - **Last session:** 2026-11-21 (planning)
-- **Repo:** (add GitHub URL here)
-- **npm name:** next-a11y-agent (not yet confirmed free)
+- **Repo:** https://github.com/Arjunsr56/next-a11y-agent
+- **npm name:** next-a11y-agent 
 
 ## Next step
 1. Run `npm view next-a11y-agent` and record the result here (404 = free).
