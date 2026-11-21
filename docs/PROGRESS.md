@@ -12,7 +12,7 @@
 
 ## Current status
 
-- **Milestone:** M0 (Foundation), not started
+- **Milestone:** M0 (Foundation), ✅ done · next: M1 (Scanner, no AI)
 - **Branch:** main
 - **Last session:** 2026-11-21 (planning)
 - **Repo:** https://github.com/Arjunsr56/next-a11y-agent
@@ -20,9 +20,7 @@
 
 ## Next step
 
-1. Run `npm view next-a11y-agent` and record the result here (404 = free).
-2. Create the GitHub repo and add `docs/PLAN.md`, `docs/PROGRESS.md` and `CLAUDE.md`.
-3. Ask Claude: "Resume next-a11y-agent: start M0."
+1. Ask Claude: "Resume next-a11y-agent: start M1."
 
 ## Open questions
 
@@ -53,13 +51,13 @@
 
 <!-- Newest first. Copy this template for each session:
 
-### YYYY-MM-DD: <milestone>
-- **Did:**
-- **Learned:**
-- **Problems / fixes:**
-- **Cost this session:** $
-- **Next:**
--->
+### 2026-11-21: M0 Foundation
+
+- **Did:** Project skeleton: strict TypeScript, ESLint + Prettier, 17 unit tests (node:test), tsc build, CI on Node 22/24, CLI with validated flags.
+- **Learned:** Thin entry + pure logic for testability; validate input at the edge; exit codes; branch → PR → green CI → merge.
+- **Problems / fixes:** (write anything that went wrong)
+- **Cost this session:** $0
+- **Next:** M1, scanner with Playwright + axe (no AI).
 
 ### 2026-11-21: Planning
 
