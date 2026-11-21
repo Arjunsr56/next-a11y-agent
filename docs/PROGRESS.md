@@ -11,29 +11,34 @@
 ---
 
 ## Current status
+
 - **Milestone:** M0 (Foundation), not started
 - **Branch:** main
 - **Last session:** 2026-11-21 (planning)
 - **Repo:** https://github.com/Arjunsr56/next-a11y-agent
-- **npm name:** next-a11y-agent 
+- **npm name:** next-a11y-agent
 
 ## Next step
+
 1. Run `npm view next-a11y-agent` and record the result here (404 = free).
 2. Create the GitHub repo and add `docs/PLAN.md`, `docs/PROGRESS.md` and `CLAUDE.md`.
 3. Ask Claude: "Resume next-a11y-agent: start M0."
 
 ## Open questions
+
 - (none yet)
 
 ## Decisions
-| Date | Decision | Why |
-|---|---|---|
+
+| Date       | Decision                                                  | Why                                 |
+| ---------- | --------------------------------------------------------- | ----------------------------------- |
 | 2026-11-21 | Scanner (axe + Playwright) finds issues; agent fixes them | More accurate, cheaper, trustworthy |
-| 2026-11-21 | Two modes: `report` (read-only) and `fix` | Safe by default |
-| 2026-11-21 | Haiku default, $0.10 budget cap per run | Small API credit |
-| 2026-11-21 | MIT license, free CLI, users bring their own API key | Zero cost to me; simple |
+| 2026-11-21 | Two modes: `report` (read-only) and `fix`                 | Safe by default                     |
+| 2026-11-21 | Haiku default, $0.10 budget cap per run                   | Small API credit                    |
+| 2026-11-21 | MIT license, free CLI, users bring their own API key      | Zero cost to me; simple             |
 
 ## Concepts I've learned
+
 - [ ] What an agent is (goal in, steps planned by the model at runtime)
 - [ ] The `query()` message stream (system → assistant/user → result)
 - [ ] Built-in vs custom tools; `mcp__server__tool` naming
@@ -45,17 +50,19 @@
 ---
 
 ## Session log
+
 <!-- Newest first. Copy this template for each session:
 
 ### YYYY-MM-DD: <milestone>
-- **Did:** 
-- **Learned:** 
-- **Problems / fixes:** 
+- **Did:**
+- **Learned:**
+- **Problems / fixes:**
 - **Cost this session:** $
-- **Next:** 
+- **Next:**
 -->
 
 ### 2026-11-21: Planning
+
 - **Did:** Chose the project idea, design, stack and milestones (see PLAN.md).
 - **Learned:** Agent SDK basics: `query()`, tools, permissions, cost caps.
 - **Cost this session:** $0
